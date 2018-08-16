@@ -41,7 +41,6 @@ header li {
 header a {
   text-decoration: none;
   color: black;
-  border: solid 1px black;
   padding: 5px 10px;
 }
 
@@ -59,15 +58,17 @@ header a {
   position: relative;
   top: 8rem;
   left: 45rem;
-  background-color: black;
-  opacity: .6;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 20rem;
   padding: 50px 25px;
 }
 
 .banner h1 {
-  color: white;
-  padding: 10px;
+  color: rgba(255, 255, 255, 1.0);
+  background-color: darkGreen;
+  padding: 30px;
+  text-align: center;
+  border: solid 1px white;
   font-size: 1.5rem;
 }
 
