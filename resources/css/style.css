@@ -14,13 +14,13 @@ html {
 header {
   align-items: center;
   background-color: green;
+  border-bottom: solid 1px black;
 }
 
 header .container {
   display: flex;
   padding: 10px 0;
   align-items: center;
-  background-color: white;
 }
 
 header span {
