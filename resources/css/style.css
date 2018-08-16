@@ -1,0 +1,96 @@
+html {
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+
+
+/*Header*/
+header {
+  align-items: center;
+  background-color: green;
+}
+
+header .container {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+  background-color: white;
+}
+
+header span {
+  font-size: 30px;
+  border-right: solid 2px black;
+  padding: 0 20px;
+}
+
+header ul {
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+header li {
+  padding: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  border: solid 1px black;
+  padding: 5px 10px;
+}
+
+
+
+/*Banner*/
+.banner {
+  background-image: url("../images/banner-tree-stock-img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 22rem;
+}
+
+.banner-title {
+  position: relative;
+  top: 8rem;
+  left: 45rem;
+  background-color: black;
+  opacity: .6;
+  width: 20rem;
+  padding: 50px 25px;
+}
+
+.banner h1 {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+
+
+  /*Main*/
+
+
+
+.main {
+  text-align: center;
+}
+
+/*Gallery Section*/
+.main h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
+.image-container {
+  display: inline-flex;
+  width: 960px;
+  overflow: scroll;
+}
