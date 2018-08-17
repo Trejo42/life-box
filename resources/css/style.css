@@ -40,19 +40,39 @@ header span {
 header ul {
   display: inline-flex;
   margin-left: 10px;
+  flex-grow: 1;
 }
 
 header li {
   padding: 10px;
+  font-family: Tahoma;
+}
+
+header a:hover {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 header a {
   text-decoration: none;
-  color: black;
+  font-family: helvetica;
+  font-weight: 400;
+  font-size: .85rem;
+  color: white;
   padding: 5px 10px;
 }
 
+header button {
+  font-size: .85rem;
+  background-color: darkGreen;
+  border: solid 2px black;
+  border-radius: 4px;
+  padding: 5px 30px;
+  color: rgba(255, 255, 255, 1.0);
+}
 
+header button:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
 
 /*Banner*/
 .banner {
@@ -129,9 +149,19 @@ footer {
 
 footer .container {
   display: flex;
-  flex-direction: row;
+  align-items: center;
 }
 
+footer ul {
+  display: inline-flex;
+  flex-grow: 1;
+}
+
+footer img {
+  height: 5rem;
+}
+
+/*
 .sub-container {
   width: 50%;
   border: solid 1px white;
@@ -159,3 +189,4 @@ footer .container {
   flex-direction: row;
   justify-content: flex-end;
 }
+*/
