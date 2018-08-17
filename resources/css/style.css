@@ -13,7 +13,7 @@ html {
 /*Header*/
 header {
   align-items: center;
-  background-color: green;
+  background-color: darkGreen;
   border-bottom: solid 1px black;
 }
 
@@ -27,6 +27,8 @@ header span {
   font-size: 30px;
   border-right: solid 2px black;
   padding: 0 20px;
+  font-family: helvetica;
+  color: white;
 }
 
 header ul {
@@ -66,9 +68,9 @@ header a {
 .banner h1 {
   color: rgba(255, 255, 255, 1.0);
   background-color: darkGreen;
-  padding: 30px;
+  font-family: helvetica;
+  padding: 15px 30px;
   text-align: center;
-  border: solid 1px white;
   font-size: 1.5rem;
 }
 
@@ -88,10 +90,27 @@ header a {
   font-weight: bold;
   text-decoration: underline;
   margin-top: 30px;
+  margin-bottom: .5rem;
 }
 
 .image-container {
   display: inline-flex;
   width: 960px;
   overflow: scroll;
+}
+
+#gallery img {
+  height: 400px;
+}
+
+
+
+/*Contact Section*/
+#contact ul {
+  text-align: center;
+}
+
+#contact li {
+  padding-top: .75rem;
+
 }
