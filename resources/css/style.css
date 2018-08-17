@@ -16,7 +16,7 @@ header {
   z-index: 9999;
   width: 100%;
   align-items: center;
-  background-color: darkGreen;
+  background-color: rgba(0, 148, 35, 1.0);
   border-bottom: solid 1.5px black;
 }
 
@@ -86,14 +86,16 @@ header button:hover {
   position: relative;
   top: 10rem;
   left: 10rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
   width: 20rem;
   padding: 50px 25px;
 }
 
 .banner h1 {
   color: rgba(255, 255, 255, 1.0);
-  background-color: darkGreen;
+  background-color: rgba(0, 148, 35, 1.0);
+  border-radius: 5px;
   font-family: helvetica;
   padding: 15px 30px;
   font-size: 1.5rem;
@@ -108,11 +110,13 @@ header button:hover {
   font-size: 1.75rem;
   font-family: helvetica;
   font-weight: bold;
-  text-decoration: underline;
   margin-top: 30px;
   margin-bottom: .5rem;
   padding: 10px 0;
-  background-color: rgba(200, 200, 200, .5);
+  background-color: rgba(192, 192, 192, .4);
+  border-bottom: solid 2px black;
+  border-radius: 5px;
+  opacity: .8;
 }
 
 /*Gallery Section*/
@@ -121,6 +125,8 @@ header button:hover {
   flex-direction: row;
   width: 1080px;
   overflow-x: scroll;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 #gallery img {
@@ -132,7 +138,9 @@ header button:hover {
 
 /*Instagram Section*/
 #instagram .unordered-lists {
-  padding-top: 20px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: solid 1px black;
 }
 
 #instagram li {
@@ -150,7 +158,17 @@ header button:hover {
   border: dotted 1px black;
 }
 
+/*Contact/Twitter Row*/
+.row {
+  display: flex;
+  padding-top: 3rem;
+}
+
 /*Contact Section*/
+#contact {
+  width: 30%;
+}
+
 #contact ul {
   text-align: center;
 }
@@ -160,9 +178,14 @@ header button:hover {
 
 }
 
+/*Twitter Feed*/
+#twitter {
+  width: 30%;
+}
+
 /*Footer Section*/
 footer {
-  background-color: darkGreen;
+  background-color: rgba(0, 148, 35, 1.0);
   margin-top: 50px;
 }
 
