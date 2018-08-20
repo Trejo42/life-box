@@ -26,6 +26,7 @@ header .container {
   align-items: center;
 }
 
+/*
 header span {
   font-size: 30px;
   border-top: solid 1px white;
@@ -36,6 +37,11 @@ header span {
   font-family: helvetica;
   color: white;
 }
+*/
+
+header .container img {
+  height: 5rem;
+}
 
 header ul {
   display: inline-flex;
@@ -45,7 +51,6 @@ header ul {
 
 header li {
   padding: 10px;
-  font-family: Tahoma;
 }
 
 header a:hover {
@@ -55,7 +60,6 @@ header a:hover {
 header a {
   text-decoration: none;
   font-family: helvetica;
-  font-weight: 400;
   font-size: .85rem;
   color: white;
   padding: 5px 10px;
@@ -104,6 +108,7 @@ header button:hover {
 /*Main*/
 .main {
   text-align: center;
+  width: 100%;
 }
 
 .main h1 {
