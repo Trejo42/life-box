@@ -9,6 +9,7 @@ html {
   display: flex;
 }
 
+
 /*Header*/
 header {
   background-color: rgba(90, 100, 80, 1.0);
@@ -47,6 +48,31 @@ header .navigation span:hover {
   color: rgba(0, 0, 0, 0.5);
 }
 
+@media only screen and (min-width: 480px) {
+  header .mobile-navigation {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header .container {
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem;
+  }
+  header .logo span {
+    font-size: 2rem;
+  }
+  header .mobile-navigation span {
+    padding: 0 .5rem;
+    color: white;
+  }
+  header .navigation span {
+    display: none;
+  }
+}
+
+
 /*Banner*/
 .banner {
   background-color: rgba(0, 0, 0, 0.1);
@@ -63,21 +89,6 @@ header .navigation span:hover {
   font-weight: 500;
   padding-top: 1rem;
 }
-
-
-/*Gallery Section*/
-.gallery {
-  height: 30rem;
-  background-color: white;
-}
-
-
-
-
-
-
-
-
 
 
 /*Instagram Section*/
@@ -98,6 +109,20 @@ header .navigation span:hover {
 
 .sections .container {
   height: 30rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .sections .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sections .container .left {
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  .sections .container .right {
+    display: none;
+  }
 }
 
 
@@ -140,6 +165,7 @@ header .navigation span:hover {
   padding-left: 1rem;
   margin: 1rem 0;
 }
+
 
 /*Footer Section*/
 footer {
