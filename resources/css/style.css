@@ -12,26 +12,62 @@ html {
 
 /*Header*/
 header {
-  background-color: rgba(90, 100, 80, 1.0);
+  background-color: rgba(90, 120, 80, 1.0);
   font-family: "work sans", helvetica, sans-serif;
+}
+
+.social-bar {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 1.8rem;
+  font-family: "work sans", helvetica, sans-serif;
+}
+
+.social-bar .container {
+  justify-content: center;
+  align-items: center;
+  height: 1.8rem;
+}
+
+.social-bar span {
+  color: black;
+  margin-right: 1rem;
+}
+
+.social-bar a {
+  margin: 0 .5rem;
+  color: black;
 }
 
 header .container {
   align-items: center;
-  height: 4rem;
+  height: 5rem;
 }
 
 header .logo {
   flex-grow: 1;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  height: auto;
 }
 
 header .logo span {
-  font-size: 2.5rem;
-  text-transform: uppercase;
+  font-family: "marck script", cursive;
+  font-size: 3rem;
+  color: white;
 }
 
 header .logo span:last-child {
-  color: rgba(102, 151, 0, 1.0)
+  color: rgba(0, 160, 90, 1.0)
+}
+
+header .navigation {
+  height: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 header .navigation span {
@@ -41,11 +77,10 @@ header .navigation span {
   margin: 0 1rem;
   padding: .3rem;
   text-transform: uppercase;
-
 }
 
 header .navigation span:hover {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(50, 50, 50, 1.0);
 }
 
 @media only screen and (min-width: 480px) {
@@ -64,7 +99,7 @@ header .navigation span:hover {
     font-size: 2rem;
   }
   header .mobile-navigation span {
-    padding: 0 .5rem;
+    padding: .3rem;
     color: white;
   }
   header .navigation span {
@@ -72,6 +107,21 @@ header .navigation span:hover {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  header .container {
+    height: 5rem;
+  }
+  header .logo {
+    margin-top: .5rem;
+  }
+  header .mobile-navigation span:first-child {
+    display: block;
+    text-align: center;
+  }
+  header .mobile-navigation span {
+    padding: .4rem 0;
+  }
+}
 
 /*Banner*/
 .banner {
@@ -85,9 +135,10 @@ header .navigation span:hover {
 }
 
 .banner .title h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   padding-top: 1rem;
+  text-transform: uppercase;
 }
 
 
@@ -169,51 +220,31 @@ header .navigation span:hover {
 
 /*Footer Section*/
 footer {
-  background-color: rgba(90, 100, 80, 1.0);
+  background-color: rgba(90, 120, 80, 1.0);
 }
 
 footer .container {
   height: 4rem;
+  align-items: center;
+}
+
+footer .left {
+  flex-grow: 1;
 }
 
 footer p {
-  font-family: helvetica;
+  font-family: "work sans", helvetica, sans-serif;
   font-size: 1rem;
   flex-grow: 1;
   text-align: left;
+  color: white;
 }
 
-footer img {
-  width: 5rem;
-  height: 5rem;
+footer .right a {
+  margin: 0 .8rem;
+  color: white;
 }
 
-/*
-.sub-container {
-  width: 50%;
-  border: solid 1px white;
+footer .right i {
+  margin: .3rem;
 }
-
-#copyright-container {
-  text-align: left;
-}
-
-#copyright-container p {
-  padding: 10px 0;
-}
-
-#social-container {
-
-}
-
-#social-container img {
-  height: 4rem;
-  border: dotted 1px black;
-}
-
-#social-container ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-*/
