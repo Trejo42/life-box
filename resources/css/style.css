@@ -10,12 +10,7 @@ html {
 }
 
 
-/*Header*/
-header {
-  background-color: rgba(90, 120, 80, 1.0);
-  font-family: "work sans", helvetica, sans-serif;
-}
-
+/*Social Bar*/
 .social-bar {
   background-color: rgba(200, 200, 200, 0.5);
   height: 1.8rem;
@@ -46,6 +41,12 @@ header {
 
 .social-bar a:hover {
   color: rgba(26, 26, 26, 0.5);
+}
+
+/*Header*/
+header {
+  background-color: rgba(90, 120, 80, 1.0);
+  font-family: "work sans", helvetica, sans-serif;
 }
 
 header .container {
@@ -91,7 +92,11 @@ header .navigation span {
 }
 
 header .navigation span:hover {
-  color: rgba(96, 56, 20, 1.0);
+  color: rgba(96, 56, 20, 0.9);
+}
+
+header .navigation span:active {
+  color: rgba(0, 0, 0, 0.7);
 }
 
 @media only screen and (min-width: 480px) {
