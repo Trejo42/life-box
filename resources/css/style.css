@@ -155,8 +155,6 @@ header .navigation span:active {
   justify-content: center;
   flex-flow: wrap row;
   margin-bottom: 1rem;
-  overflow: hidden;
-  max-width: 1080px;
   margin-top: 1rem;
 }
 
