@@ -12,7 +12,7 @@ html {
 
 /*Social Bar*/
 .social-bar {
-  background-color: rgba(200, 200, 200, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
   height: 1.8rem;
   font-family: "work sans", helvetica, sans-serif;
 }
@@ -89,10 +89,9 @@ header .navigation {
 header .navigation span {
   text-decoration: none;
   font-size: 1rem;
-  font-weight: 500;
   color: white;
-  margin: 0 1rem;
-  padding: .3rem;
+  margin: 0 .1rem;
+  padding: 1rem .5rem;
   text-transform: uppercase;
 }
 
@@ -113,13 +112,13 @@ header .navigation span:active {
 
 .banner .container {
   height: 30rem;
+  padding: 2rem 0;
   justify-content: center;
 }
 
 .banner .title h1 {
   font-size: 1.8rem;
   font-weight: 500;
-  padding-top: 1rem;
   text-transform: uppercase;
 }
 
@@ -189,7 +188,8 @@ header .navigation span:active {
 }
 
 .sections .container {
-  height: 30rem;
+  height: 25rem;
+  padding: 2rem 0;
 }
 
 
@@ -198,11 +198,10 @@ header .navigation span:active {
   width: 40%;
   display: flex;
   flex-direction: column;
-  margin: 1rem 0;
 }
 
 .sections .left h1 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 500;
   margin: 1rem auto;
 }
@@ -219,12 +218,11 @@ header .navigation span:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem 0;
   border: solid 2px rgba(0, 0, 0, 0.1);
 }
 
 .sections .right h1 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 500;
   margin: 1rem auto;
 }
@@ -259,9 +257,14 @@ footer p {
 
 footer .right a {
   margin: 0 .8rem;
+  padding: 2rem 0;
   color: white;
 }
 
 footer .right i {
   margin: .3rem;
+}
+
+footer .right a:hover {
+  color: rgba(0, 0, 0, 0.8);
 }
