@@ -107,15 +107,19 @@ header .navigation span:active {
 /*Banner*/
 .jumbotron {
   font-family: "work sans", helvetica, sans-serif;
-  background-color: rgba(0, 0, 0, 0.1);
   height: 40rem;
   overflow: hidden;
 }
 
-.jumbotron .slick-slide img {
+.jumbotron .slider {
+  width: 100%;
+}
+
+.jumbotron .slider img {
+  display: inline-block;
   width: 100%;
   position: relative;
-  bottom: 22rem;
+  bottom: 24rem;
 }
 
 
