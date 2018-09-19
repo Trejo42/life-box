@@ -105,22 +105,20 @@ header .navigation span:active {
 
 
 /*Banner*/
-.banner {
-  background-color: rgba(0, 0, 0, 0.1);
+.jumbotron {
   font-family: "work sans", helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 40rem;
+  overflow: hidden;
 }
 
-.banner .container {
-  height: 30rem;
-  padding: 2rem 0;
-  justify-content: center;
+.jumbotron .slick-slide img {
+  width: 100%;
+  position: relative;
+  bottom: 22rem;
 }
 
-.banner .title h1 {
-  font-size: 1.8rem;
-  font-weight: 500;
-  text-transform: uppercase;
-}
+
 
 
 /*Instagram Section*/
