@@ -25,7 +25,6 @@ html {
 }
 
 .social-bar .social-icons {
-  margin-right: 3rem;
   height: 1rem;
 }
 
@@ -103,7 +102,31 @@ header .navigation span:active {
   color: rgba(0, 0, 0, 0.7);
 }
 
-
+@media only screen and (max-width: 480px) {
+  .social-bar .container {
+    justify-content: center;
+  }
+  header .navigation {
+    display: none;
+  }
+  header .mobile {
+    display: flex;
+    align-items: center;
+    background-color: rgba(90, 120, 80, 1.0);
+    color: white;
+    font-size: 1rem;
+  }
+  header .container {
+    display: flex;
+    flex-flow: column;
+    height: 8rem;
+  }
+  header .mobile span {
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem .5rem;
+  }
+}
 /*Banner*/
 /* Currently Inactive */
 /*
